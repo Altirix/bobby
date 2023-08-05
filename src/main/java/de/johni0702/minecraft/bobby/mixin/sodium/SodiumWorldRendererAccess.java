@@ -9,5 +9,6 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 public interface SodiumWorldRendererAccess {
     @Accessor(remap = false)
     RenderSectionManager getRenderSectionManager();
-
+    @Accessor(remap = false)
+    ClientWorld getWorld();
 }
