@@ -21,6 +21,7 @@ public class SodiumChunkStatusListenerImpl implements ChunkStatusListener {
         SodiumWorldRendererAccess sodiumWorldRenderer = ((SodiumWorldRendererAccess)SodiumWorldRenderer.instance());
         sodiumWorldRenderer.getRenderSectionManager().onChunkRemoved(x, z);
 
-        ChunkTrackerHolder.get(sodiumWorldRenderer.getWorld()).onChunkStatusRemoved(x,z, ChunkStatus.FLAG_ALL);
+        //ChunkTrackerHolder.get(sodiumWorldRenderer.getWorld()).onChunkStatusRemoved(x,z, ChunkStatus.FLAG_ALL);
+        // im not sure if this is needed or not actually.
     }
 }
