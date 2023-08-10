@@ -27,6 +27,7 @@
     "defaultRequire": 1
   },
   "mixins": [
-    "sodium.SodiumWorldRendererAccess"
+    "sodium.SodiumWorldRendererAccess",
+    "sodium.SodiumChunkTrackerMixin"
   ]
 }
